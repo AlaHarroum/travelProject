@@ -3,6 +3,7 @@ import { Container, Row, Button } from "reactstrap";
 import { NavLink, Link, useNavigate } from "react-router-dom";
 
 import logo from "../../assets/images/logo.png";
+import logo_user from "../../assets/images/profile.png";
 import "./header.css";
 
 import { AuthContext } from "./../../context/AuthContext";
@@ -88,6 +89,7 @@ const Header = () => {
                 {user ? (
                   <>
                     <h5 className="mb-0">{user.username}</h5>
+                    <img src={logo_user} alt="" className="logo_user"/>
                     <Button className="btn btn-dark" onClick={logout}>
                       Logout
                     </Button>
