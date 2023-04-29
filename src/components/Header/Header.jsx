@@ -89,6 +89,7 @@ const Header = () => {
                 {user ? (
                   <>
                     <h5 className="mb-0">{user.username}</h5>
+                    {/*lorsque je clique sur l'image il ouvre le menu de choix, affiche le nom del'utilisateur, boutton profile et boutton logout */} 
                     <img src={logo_user} alt="" className="logo_user"/>
                     <Button className="btn btn-dark" onClick={logout}>
                       Logout
