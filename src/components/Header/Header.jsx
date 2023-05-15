@@ -3,6 +3,8 @@ import { Container, Row, Button } from "reactstrap";
 import { NavLink, Link, useNavigate } from "react-router-dom";
 
 import logo from "../../assets/images/logo.png";
+import logo1 from "../../assets/images/logo1.png";
+import logo_user from "../../assets/images/profile.png";
 import "./header.css";
 
 import { AuthContext } from "./../../context/AuthContext";
@@ -33,6 +35,10 @@ const Header = () => {
     navigate("/");
   };
 
+  const userProfile =() =>{
+    navigate("/profile");
+  }
+
   const stickyHeaderFunc = () => {
     window.addEventListener("scroll", () => {
       if (
@@ -61,7 +67,7 @@ const Header = () => {
           <div className="nav__wrapper d-flex align-items-center justify-content-between">
             {/* ================= Logo ===============*/}
             <div className="logo">
-              <img src={logo} alt="" />
+              <img src={logo1} alt="" />
             </div>
             {/* ================= Logo End===============*/}
             {/* ================= Menu Start===============*/}
@@ -87,7 +93,11 @@ const Header = () => {
               <div className="nav__btns d-flex align-items-center gap-4">
                 {user ? (
                   <>
-                    <h5 className="mb-0">{user.username}</h5>
+                    { /*<h5 className="mb-0">{user.username}</h5>*/}
+                    {/*lorsque je clique sur l'image il ouvre le menu de choix, affiche le nom del'utilisateur, boutton profile et boutton logout */} 
+                    <a href="#" onClick={userProfile}>
+                      <img className="logo_user" src={logo_user} alt="" />
+                    </a>
                     <Button className="btn btn-dark" onClick={logout}>
                       Logout
                     </Button>

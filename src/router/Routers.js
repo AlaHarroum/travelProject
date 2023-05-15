@@ -9,6 +9,7 @@ import Login from './../pages/Login';
 import Register from './../pages/Register';
 import SearchResultList from './../pages/SearchResultList';
 import ThankYou from '../pages/ThankYou';
+import ProfileUpdatePage from '../pages/ProfilePage';
 
 const Routers = () => {
     return (
@@ -21,6 +22,7 @@ const Routers = () => {
             <Route path='/register' element={<Register />} />
             <Route path='/thank-you' element={<ThankYou />} />
             <Route path='/tours/search' element={<SearchResultList />} />
+            <Route path='/profile' element={<ProfileUpdatePage />} />
         </Routes>
     );
 };

@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 //import reportWebVitals from './reportWebVitals'; // Function pour calcul performance du App
 
 import App from "./App";
+import './index.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "remixicon/fonts/remixicon.css";
 import "slick-carousel/slick/slick.css";
