@@ -55,7 +55,7 @@ console.log(updateUser)
         {loading && <div>Loading...</div>}
       {error && <div>Error: {error}</div>}
       {/* {data && <div>Updated data: {JSON.stringify(data)}</div>} */}
-          <h1 className="text-center text-blue-600">Update Profile</h1>
+          <h1 className="text-center text-blue-700">Update Profile</h1>
           <FormGroup>
             <Label for="username">Username</Label>
             <Input

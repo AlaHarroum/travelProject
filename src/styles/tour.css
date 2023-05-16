@@ -18,3 +18,8 @@
     background: var(--secondary-color);
     color: #fff !important;
 }
+
+.image__loading img{
+    display: flex;
+    justify-content: center;
+}

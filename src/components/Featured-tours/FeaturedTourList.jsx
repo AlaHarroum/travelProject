@@ -5,6 +5,8 @@ import { Col } from "reactstrap";
 
 import useFetch from "./../../hooks/useFetch.js";
 import { BASE_URL } from "./../../utils/config.js";
+import imgloading from "../../assets/images/loading.gif";
+import errorloading from "../../assets/images/error.gif";
 
 const FeaturedTourList = () => {
   // get tours data from DB
@@ -16,8 +18,8 @@ const FeaturedTourList = () => {
 
   return (
     <>
-      {loading && <h4>Loading.............</h4>}
-      {error && <h4>{error}</h4>}
+      {loading && <img src={imgloading} />}
+      {error && <img src={errorloading}/>}
       {!loading &&
         !error &&
         featuredTours.map((tour) => (

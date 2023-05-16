@@ -36,14 +36,10 @@ const Home = () => {
                 </h1>
                 <p>
                   {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  Embark on unforgettable journeys with our exceptional travel platform. 
+                  Whether you're seeking an exotic getaway, an adrenaline-fueled adventure, or a tranquil escape, we've got you covered.
+                  Discover mesmerizing destinations, immerse yourself in diverse cultures, and create lifelong memories. 
+                  Our comprehensive collection of travel experiences caters to every wanderlust-filled soul.
                 </p>
               </div>
             </Col>
@@ -106,9 +102,9 @@ const Home = () => {
                   With our all experience <br /> we will serve you
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  <br />
-                  Corrupti molestiae cumque modi, voluptatibus cum ex sint!
+                Immerse yourself in captivating landscapes, indulge in vibrant cultures, 
+                and embark on extraordinary journeys that will ignite your senses and 
+                leave an indelible mark on your soul.
                 </p>
               </div>
 
